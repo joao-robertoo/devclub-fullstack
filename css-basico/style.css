@@ -1,39 +1,35 @@
-* {
+.vo {
 
 }
 
-#titulo {
-    color: red;
-    font-size: 40px;
-    background: black;
+.pai {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: #fff;
+    font-size: 32px;
 }
 
-#paragrafo {
-    color: blue;
-    font-size: 20px;
+.filho {
+    width: 50%;
+    height: 50%;
+    background: red;
+    color: #fff;
+    font-size: 0.5em;
 }
 
-#botao {
-    background-color: green;
-    border-color: darkgreen;
-}
+/* UNIDADES DE MEDIDAS 
 
-#outro-botao {
-    color: purple;
-    font-size: 30px;
-}
+-> ABSOLUTAS
+    px (Pixels)
+    in (Inches)
+    cm (Centimetros)
+    mm (Milimetros)
 
-h1 {
-        color: red;
-        background: black;
-    }
-
-    p {
-        color: blue;
-        font-size: 20px;
-    }
-
-    button {
-        background-color: green;
-        border-color: darkgreen;
-    }
+-> RELATIVAS
+    % (Relativas ao elemento pai)
+    vw (Viewport Width - Largura da tela)
+    vh (Viewport Height - Altura da tela)
+    em (Relativas ao tamanho da fonte do elemento pai)
+    rem (Relativas ao tamanho da fonte do elemento raiz - html)
+\*     
