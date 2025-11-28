@@ -1,31 +1,23 @@
-.pai {
-    width: 100px;
-    height: 100px;
-    background: blue;
-    color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    color: blue;
+    font-size: 64px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    text-shadow: 10px 10px 10px red;
+}
+
+p {
+    color: green;
     font-size: 32px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-break: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline; 
 }
-
-.filho {
-    width: 50%;
-    height: 50%;
-    background: red;
-    color: #fff;
-    font-size: 0.5em;
-}
-
-/* UNIDADES DE MEDIDAS 
-
--> ABSOLUTAS
-    px (Pixels)
-    in (Inches)
-    cm (Centimetros)
-    mm (Milimetros)
-
--> RELATIVAS
-    % (Relativas ao elemento pai)
-    vw (Viewport Width - Largura da tela)
-    vh (Viewport Height - Altura da tela)
-    em (Relativas ao tamanho da fonte do elemento pai)
-    rem (Relativas ao tamanho da fonte do elemento raiz - html)
-\*     
