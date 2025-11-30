@@ -1,45 +1,39 @@
-.box {
-    background: #ff1395;
-    height: 50px;
-    width: 50px;
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.box-2 {
-    background: #ffff00;
-
+header {
+    margin: 44px 0 144px 76px;
 }
 
-.box-3 {
-    background: #00ff00;
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #98909c;
+    cursor: pointer;
+    margin-right: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
-/* 
 
-DISPLAY 
+.button-header {
+    background: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
 
-    - BLOCK
-    - INLINE
-    - INLINE-BLOCK
-    
-    - GRID
-    - FLEX
-    
-    BLOCK
-    Vem como padrão: div, section, p, h1. h2, ul, li, article...
-    
-    - Ocupa 1005 da largura do elemento pai
-    - Sempre ocupa toda a sua linha
-    - Altura definida de acordo com o conteúdo
-    - Podemos definir altura (height) e largura (width)
-    - Podemos definir valores de margin
+.logo-image {
+    width: 568px;
+    height: 500px;
+}
 
-    INLINE
-    Vem como padrão: span, a, strong, em, b, img...
-
-    - Elementos em linha
-    - Não permite alterar altura (height) e largura (width)
-    - Permite definir margin (top e bottom)
-    - Ganha comportamento de uma palavra
-
-    INLINE-BLOCK
-    - Elementos em linha, porém com características do display block
-    - Permite definir altura (height) e largura (width)
